@@ -5,6 +5,10 @@
     "CCC",
     "CCC"
   ],
-  "key": { "C": { "item": "studdedarmor:chainlinks" } },
-  "result": { "item": "minecraft:chainmail_chestplate" }
+  "key": {
+    "C": { "item": "studdedarmor:chainlinks" }
+  },
+  "result": {
+    "item": "minecraft:chainmail_chestplate"
+  }
 }

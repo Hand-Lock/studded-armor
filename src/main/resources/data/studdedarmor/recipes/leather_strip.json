@@ -6,5 +6,8 @@
   "key": {
     "L": { "item": "minecraft:leather" }
   },
-  "result": { "item": "studdedarmor:leather_strip", "count": 1 }
+  "result": {
+    "item": "studdedarmor:leather_strip",
+    "count": 1
+  }
 }

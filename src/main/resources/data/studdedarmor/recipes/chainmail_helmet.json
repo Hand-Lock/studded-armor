@@ -4,6 +4,10 @@
     "CCC",
     "C C"
   ],
-  "key": { "C": { "item": "studdedarmor:chainlinks" } },
-  "result": { "item": "minecraft:chainmail_helmet" }
+  "key": {
+    "C": { "item": "studdedarmor:chainlinks" }
+  },
+  "result": {
+    "item": "minecraft:chainmail_helmet"
+  }
 }

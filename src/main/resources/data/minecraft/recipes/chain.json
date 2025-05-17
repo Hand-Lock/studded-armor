@@ -8,5 +8,8 @@
   "key": {
     "N": { "item": "minecraft:iron_nugget" }
   },
-  "result": { "item": "minecraft:chain", "count": 1 }
+  "result": {
+    "item": "minecraft:chain",
+    "count": 1
+  }
 }

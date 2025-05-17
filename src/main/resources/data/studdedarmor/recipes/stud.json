@@ -9,5 +9,8 @@
     "N": { "item": "minecraft:iron_nugget" },
     "L": { "item": "studdedarmor:leather_strip" }
   },
-  "result": { "item": "studdedarmor:stud", "count": 1 }
+  "result": {
+    "item": "studdedarmor:stud",
+    "count": 1
+  }
 }

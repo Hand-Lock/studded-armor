@@ -8,5 +8,8 @@
   "key": {
     "C": { "item": "minecraft:chain" }
   },
-  "result": { "item": "studdedarmor:chainlinks", "count": 2 }
+  "result": {
+    "item": "studdedarmor:chainlinks",
+    "count": 2
+  }
 }
