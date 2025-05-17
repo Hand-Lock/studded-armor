@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "studdedarmor:studded_helmet",
+    "studdedarmor:studded_chestplate",
+    "studdedarmor:studded_leggings",
+    "studdedarmor:studded_boots"
+  ]
+}

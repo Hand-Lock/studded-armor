@@ -1,0 +1,16 @@
+{
+  "item.studdedarmor.chainlinks":       "Chainlinks",
+  "item.studdedarmor.leather_strip":   "Leather Strip",
+  "item.studdedarmor.stud":            "Stud",
+  "item.studdedarmor.studded_helmet":  "Studded Helmet",
+  "item.studdedarmor.studded_chestplate": "Studded Chestplate",
+  "item.studdedarmor.studded_leggings":   "Studded Leggings",
+  "item.studdedarmor.studded_boots":      "Studded Boots",
+  "itemGroup.studdedarmor.main": "Studded Mod",
+  "item.studdedarmor.studded_upgrade_smithing_template": "Smithing Template",
+  "upgrade.studdedarmor.studded_upgrade": "Studded Upgrade",
+  "item.studdedarmor.smithing_template.studded_upgrade.applies_to": "Chainmail Armor",
+  "item.studdedarmor.smithing_template.studded_upgrade.ingredients": "Stud",
+  "item.minecraft.smithing_template.upgrade_base_slot": "Add chainmail armor",
+  "item.minecraft.smithing_template.upgrade_additions_slot": "Add Stud"
+}

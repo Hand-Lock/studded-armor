@@ -1,0 +1,7 @@
+{
+  "type": "minecraft:smithing_transform",
+  "template": { "item": "studdedarmor:studded_upgrade_smithing_template" },
+  "base":     { "item": "minecraft:chainmail_chestplate" },
+  "addition": { "item": "studdedarmor:stud" },
+  "result":   { "item": "studdedarmor:studded_chestplate" }
+}

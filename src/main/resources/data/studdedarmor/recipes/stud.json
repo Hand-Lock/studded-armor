@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "NNN",
+    "NLN",
+    "NNN"
+  ],
+  "key": {
+    "N": { "item": "minecraft:iron_nugget" },
+    "L": { "item": "studdedarmor:leather_strip" }
+  },
+  "result": { "item": "studdedarmor:stud", "count": 1 }
+}
