@@ -17,6 +17,7 @@ public final class StuddedArmor {
     public StuddedArmor() {
         IEventBus modBus = FMLJavaModLoadingContext.get().getModEventBus(); // warning OK
         ModItems.REGISTER.register(modBus);
+        ModLootModifiers.register(modBus);
         MinecraftForge.EVENT_BUS.register(this);
     }
 }

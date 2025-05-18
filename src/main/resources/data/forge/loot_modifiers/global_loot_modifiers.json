@@ -1,0 +1,11 @@
+{
+  "replace": false,
+  "entries": [
+    "studdedarmor:add_studded_template_desert_pyramid",
+    "studdedarmor:add_studded_template_desert_well",
+    "studdedarmor:add_studded_template_trail_ruins_common",
+    "studdedarmor:add_studded_template_trail_ruins_rare",
+    "studdedarmor:add_studded_template_ocean_ruin_cold",
+    "studdedarmor:add_studded_template_ocean_ruin_warm"
+  ]
+}
