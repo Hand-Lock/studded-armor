@@ -15,21 +15,21 @@ import net.minecraft.world.item.ArmorItem;
 import net.minecraft.world.item.ArmorMaterial;
 import net.minecraft.world.item.crafting.Ingredient;
 
-/** Un gradino sopra la chainmail, sotto l’iron. */
+
 public final class StuddedArmorMaterial implements ArmorMaterial {
 
     private static final Map<ArmorItem.Type, Integer> DURABILITY = Map.of(
-            ArmorItem.Type.BOOTS,      195,
-            ArmorItem.Type.LEGGINGS,   225,
-            ArmorItem.Type.CHESTPLATE, 240,
-            ArmorItem.Type.HELMET,     165
+            ArmorItem.Type.BOOTS,      312,
+            ArmorItem.Type.LEGGINGS,   360,
+            ArmorItem.Type.CHESTPLATE, 384,
+            ArmorItem.Type.HELMET,     264
     );
 
     private static final Map<ArmorItem.Type, Integer> DEFENSE = Map.of(
-            ArmorItem.Type.BOOTS,      3,
+            ArmorItem.Type.BOOTS,      2,
             ArmorItem.Type.LEGGINGS,   6,
-            ArmorItem.Type.CHESTPLATE, 8,
-            ArmorItem.Type.HELMET,     4
+            ArmorItem.Type.CHESTPLATE, 7,
+            ArmorItem.Type.HELMET,     2
     );
 
     @Override public int   getDurabilityForType(@NotNull ArmorItem.Type s){ return Objects.requireNonNull(DURABILITY.get(s)); }
@@ -37,7 +37,7 @@ public final class StuddedArmorMaterial implements ArmorMaterial {
     @Override public int   getEnchantmentValue()               { return 12; }
     @Override public float getToughness()                       { return 1.0F; }
     @Override public float getKnockbackResistance()             { return 0.0F; }
-    @Override @NotNull public SoundEvent  getEquipSound()       { return SoundEvents.ARMOR_EQUIP_IRON; }
+    @Override @NotNull public SoundEvent  getEquipSound()       { return SoundEvents.ARMOR_EQUIP_LEATHER; }
     @Override @NotNull public Ingredient  getRepairIngredient() { return Ingredient.of(ModItems.STUD.get()); }
     @Override @NotNull public String      getName()             { return StuddedArmor.MOD_ID + ":studded"; }
 }
