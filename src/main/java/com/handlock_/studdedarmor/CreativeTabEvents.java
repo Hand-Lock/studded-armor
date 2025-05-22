@@ -2,6 +2,7 @@
  * SPDX-License-Identifier: LGPL-3.0-or-later
  * Copyright (C) 2025 HandLock_
  */
+
 package com.handlock_.studdedarmor;
 
 import java.util.List;
@@ -17,11 +18,10 @@ import net.minecraftforge.registries.RegistryObject;
 
 import static net.minecraft.world.item.CreativeModeTab.TabVisibility.PARENT_AND_SEARCH_TABS;
 
-/** Aggiunge gli oggetti della mod ai tab vanilla (Forge 47.4.0 / MC 1.20.1). */
+
 @Mod.EventBusSubscriber(modid = StuddedArmor.MOD_ID, bus = Mod.EventBusSubscriber.Bus.MOD)
 public final class CreativeTabEvents {
 
-    /** Converte Item o ItemStack in ItemStack. */
     private static ItemStack stack(Object o) {
         return (o instanceof ItemStack s) ? s : new ItemStack((Item) o);
     }

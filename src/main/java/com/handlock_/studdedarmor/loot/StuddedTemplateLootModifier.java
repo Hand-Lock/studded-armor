@@ -1,6 +1,8 @@
 /*
  * SPDX-License-Identifier: LGPL-3.0-or-later
+ * Copyright (C) 2025 HandLock_
  */
+
 package com.handlock_.studdedarmor.loot;
 
 import com.handlock_.studdedarmor.ModItems;
@@ -14,20 +16,13 @@ import net.minecraftforge.common.loot.LootModifier;
 import net.minecraftforge.common.loot.IGlobalLootModifier;
 import org.jetbrains.annotations.NotNull;
 
-/**
- * Inserisce lo smithing-template <em>studded_upgrade_smithing_template</em>
- * nei drop gestiti da questo Global Loot Modifier.
- * La probabilità viene controllata esclusivamente dalle condizioni JSON.
- */
 public final class StuddedTemplateLootModifier extends LootModifier {
 
-    /** Codec ⇄ JSON richiesto da Forge. */
     public static final Codec<StuddedTemplateLootModifier> CODEC =
             RecordCodecBuilder.create(inst ->
-                    LootModifier.codecStart(inst)           // ← solo l’array conditions[]
+                    LootModifier.codecStart(inst)
                             .apply(inst, StuddedTemplateLootModifier::new));
 
-    /** Costruttore usato dal codec. */
     public StuddedTemplateLootModifier(LootItemCondition[] conditions) {
         super(conditions);
     }
@@ -38,7 +33,6 @@ public final class StuddedTemplateLootModifier extends LootModifier {
     @Override
     protected ObjectArrayList<ItemStack> doApply(@NotNull ObjectArrayList<ItemStack> generated,
                                                  @NotNull LootContext ctx) {
-        // aggiunge sempre il template: saranno le condizioni JSON a decidere quando
         generated.clear();
         generated.add(new ItemStack(ModItems.STUDDED_TEMPLATE.get()));
         return generated;

@@ -1,3 +1,4 @@
+[![License: LGPL v3 or later](https://img.shields.io/badge/License-LGPL%20v3%2B-blue.svg)](LICENSE)
 # Studded Armor: Lost Tier & Chainmail Rework
 *A Forge mod for Minecraft 1.20.1 that resurrects the forgotten **Studded** armor set and finally gives Chainmail the recipes it deserved.*
 
