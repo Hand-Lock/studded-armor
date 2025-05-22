@@ -70,11 +70,11 @@ Found while **brushing suspicious sand or gravel** (Archaeology). Gives archaeol
 ---
 
 #### 🛡️ Stat Overview
-| Set | Armor (points) | Toughness / piece | Durability (total) |
-|-----|---------------|------------------|--------------------|
-| Iron | 15 | — | 240 |
-| **Studded** | **17** | **+1** | **384** |
-| Diamond | 20 | +2 | 528 |
+| Set | Armor (points) | Toughness / piece | Durability (chestplate) |
+|-----|---------------|------------------|-------------------------|
+| Iron | 15 | — | 240                     |
+| **Studded** | **17** | **+1** | **384**                 |
+| Diamond | 20 | +2 | 528                     |
 
 *(Values respect the vanilla ratios between individual pieces.)*
 
@@ -172,7 +172,7 @@ Use **Chainlinks** in the standard vanilla armor shapes.
 
 > ⚠️ *In a straight-vanilla playthrough—without intrinsic-enchant perks or an armor-weight system—the extra Studded tier may feel like “bloat”; yet it remains a nostalgic gem for legacy-feature aficionados.*
 
-> 🎨 *Every texture—vintage Indev originals and brand-new additions alike—is drawn in the Programmer Art style, so it shines when paired with the vanilla “Programmer Art” pack and retro packs like [Golden Days](https://modrinth.com/resourcepack/golden-days) and [PACP](https://modrinth.com/resourcepack/pacp).*
+> 🎨 *Every texture—vintage Indev originals and brand-new additions alike—is drawn in the Programmer Art style, so it shines when paired with the vanilla “Programmer Art” pack and retro packs like [Golden Days](https://modrinth.com/resourcepack/golden-days) or [PACP](https://modrinth.com/resourcepack/pacp).*
 
 ---
 
