@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "smithing_template_copy",
+  "pattern": [
+    "STS",
+    "SLS",
+    "SSS"
+  ],
+  "key": {
+    "S": { "item": "minecraft:diamond" },
+    "T": { "item": "studdedarmor:studded_upgrade_smithing_template" },
+    "L": { "item": "studdedarmor:leather_strip" }
+  },
+  "result": {
+    "item": "studdedarmor:studded_upgrade_smithing_template",
+    "count": 2
+  },
+  "show_notification": false
+}

@@ -67,6 +67,21 @@ Combine **any Chainmail piece** with a **Studded Upgrade Smithing Template** and
 #### 📜 Studded Upgrade Smithing Template
 Found while **brushing suspicious sand or gravel** (Archaeology). Gives archaeology real purpose, beyond pottery shards...
 
+Clone it like any vanilla template, using a **Leather Strip** as the central material:
+
+![asd](https://cdn.modrinth.com/data/cached_images/70ac929f1e61cf2bbf36c6853689dec3df8bca71.png)
+
+```
+
+[D] [S] [D]
+[D] [L] [D]
+[D] [D] [D]
+
+```
+* **S** = Studded Upgrade Smithing Template
+* **L** = Leather Strip
+* **D** = Diamond
+
 ---
 
 #### 🛡️ Stat Overview
